@@ -1,0 +1,26 @@
+select.form-control,
+textarea.form-control,
+input.form-control {
+	font-size: 1rem;
+}
+input[type="file"] {
+	width: 100%;
+}
+
+@font-face {
+	font-family: 'Transport New';
+	src: url('/fonts/transport-new-medium.woff') format('opentype');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Transport New';
+	src: url('/fonts/transport-new-heavy.woff') format('opentype');
+	font-weight: bolder;
+}
+
+@font-face {
+	font-family: 'Transport New';
+	src: url('/fonts/transport-new-medium.woff') format('opentype');
+	font-weight: lighter;
+}
