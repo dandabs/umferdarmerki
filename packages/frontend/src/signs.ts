@@ -6,6 +6,16 @@ export default [
         descriptionColor: 'primary',
         signs: [
             {
+                id: 'F12.11',
+                name: 'Staðarvísir (blár)',
+                requiresPlaceName: true
+            },
+            {
+                id: 'F12.21',
+                name: 'Staðarmerki',
+                requiresPlaceName: true
+            },
+            {
                 id: 'F14.17',
                 name: 'Götunafn eða vegarheiti',
                 requiresPlaceName: true
@@ -19,6 +29,15 @@ export default [
                 id: 'F16.11',
                 name: 'Vegnúmer',
                 requiresPlaceName: true
+            },
+            {
+                id: 'F16.21',
+                name: 'Vegnúmer, leið að vegi',
+                requiresPlaceName: true
+            },
+            {
+                id: 'F16.31',
+                name: 'Ónúmeraður vegur'
             }
         ]
     }
