@@ -38,6 +38,11 @@ export default [
             {
                 id: 'F16.31',
                 name: 'Ónúmeraður vegur'
+            },
+            {
+                id: 'F18.21',
+                name: 'Sýslu- eða sveitarfélagsmerki (lítið)',
+                requiresMunicipality: true
             }
         ]
     }
@@ -48,6 +53,7 @@ export interface Sign {
     name: string;
     hasCapitalRegionVariant?: boolean;
     requiresPlaceName?: boolean;
+    requiresMunicipality?: boolean;
 }
 
 export interface SignCategory {
