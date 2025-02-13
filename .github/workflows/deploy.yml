@@ -21,7 +21,7 @@ jobs:
             - name: Configure AWS credentials
               uses: aws-actions/configure-aws-credentials@v2
               with:
-                  role-to-assume: arn:aws:iam::205930631235:role/GitHub
+                  role-to-assume: arn:aws:iam::588738590152:role/gha_dandabs
                   role-duration-seconds: 14390
                   aws-region: eu-west-1
 
