@@ -19,7 +19,7 @@ import F19_51 from "../signs/F/F19_51";
 
 export default function Home() {
 	const signs = SignDatabase.map((category) => category.signs).flat();
-	const [signId, setSignId] = useState('F14.17');
+	const [signId, setSignId] = useState('F19.51');
 	const [placeName, setPlaceName] = useState('');
 	const [routeNumber, setRouteNumber] = useState(1);
 	const [municipality, selectMunicipality] = useState('');
@@ -33,7 +33,7 @@ export default function Home() {
 		<div>
 			<Box>
 				<h1>Íslensk Umferðarmerki</h1>
-				<Typography level="body-sm">Búðu til þín eigin íslensk umferðarmerki. Umferðarskiltin hér hafa verið hönnuð til að vera sem næst <a href="https://www.samgongustofa.is/media/log-og-reglur-i-umferdarmalum/289_1995-Reglugerd-um-umferdarmerki-og-notkun-theirra-nr_289_1995-20130625.pdf">íslensku umferðarmerkjareglugerðinni</a> frá 1995.</Typography>
+				<Typography level="body-sm">Búðu til þín eigin íslensk umferðarmerki. Umferðarskiltin hér hafa verið hönnuð til að vera sem næst <a href="https://www.samgongustofa.is/media/log-og-reglur-i-umferdarmalum/289_1995-Reglugerd-um-umferdarmerki-og-notkun-theirra-nr_289_1995-20130625.pdf">íslensku umferðarmerkjareglugerðinni</a>.</Typography>
 			</Box>
 			<Divider sx={{ my: 2 }} />
 			<Box sx={{ display: "flex", gap: 2 }}>
