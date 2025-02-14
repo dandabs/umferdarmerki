@@ -12,6 +12,7 @@ import F12_21 from "../signs/F/F12_21";
 import F12_11 from "../signs/F/F12_11";
 import SelectMunicipality from "./components/SelectMunicipality";
 import F18_21 from "../signs/F/F18_21";
+import F18_11 from "../signs/F/F18_11";
 
 export default function Home() {
 	const signs = SignDatabase.map((category) => category.signs).flat();
@@ -69,6 +70,7 @@ export default function Home() {
 					{ signId == "F16.11" && <F16_11 placeName={placeName} /> }
 					{ signId == "F16.21" && <F16_21 placeName={placeName} /> }
 					{ signId == "F16.31" && <F16_31 /> }
+					{ signId == "F18.11" && <F18_11 municipality={municipality} /> }
 					{ signId == "F18.21" && <F18_21 municipality={municipality} /> }
 				</Box>
 			</Box>

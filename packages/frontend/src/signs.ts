@@ -40,6 +40,11 @@ export default [
                 name: 'Ónúmeraður vegur'
             },
             {
+                id: 'F18.11',
+                name: 'Sýslu- eða sveitarfélagsmerki (stórt)',
+                requiresMunicipality: true
+            },
+            {
                 id: 'F18.21',
                 name: 'Sýslu- eða sveitarfélagsmerki (lítið)',
                 requiresMunicipality: true
