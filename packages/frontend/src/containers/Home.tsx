@@ -33,7 +33,7 @@ export default function Home() {
 		<div>
 			<Box>
 				<h1>Íslensk Umferðarmerki</h1>
-				<Typography level="body-sm">Hvað er fiskur? Ertu fiskur?</Typography>
+				<Typography level="body-sm">Búðu til þín eigin íslensk umferðarmerki. Umferðarskiltin hér hafa verið hönnuð til að vera sem næst <a href="https://www.samgongustofa.is/media/log-og-reglur-i-umferdarmalum/289_1995-Reglugerd-um-umferdarmerki-og-notkun-theirra-nr_289_1995-20130625.pdf">íslensku umferðarmerkjareglugerðinni</a> frá 1995.</Typography>
 			</Box>
 			<Divider sx={{ my: 2 }} />
 			<Box sx={{ display: "flex", gap: 2 }}>
