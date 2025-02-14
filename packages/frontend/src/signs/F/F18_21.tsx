@@ -26,7 +26,7 @@ export default function F18_21({ municipality }: F18_21Props) {
         }
     }, [textRef, municipality]);
 
-    const width = textWidth + paddingX + 50;
+    const width = textWidth + paddingX + (munData && munData.image ? 50 : 0);
     const height = textHeight + paddingY;
 
   return munData && (
@@ -56,7 +56,7 @@ export default function F18_21({ municipality }: F18_21Props) {
 
       <text
         ref={textRef}
-        x={width / 2 + 15}
+        x={width / 2 + (munData.image ? 17 : 0)}
         y="53%"
         fontSize={fontSize}
         fill="black"
